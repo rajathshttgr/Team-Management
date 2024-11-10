@@ -1,17 +1,10 @@
-## Running React on Replit
+#Team Management App
+Try this App <a href=" https://rajathshttgr.github.io/Team-Management/">Click Here!</a>
+This is a **React + Vite** single-page application (SPA) designed to manage and view team member allocations in various teams. The application allows users to select and view members of different teams with details such as names and designations. This project showcases an interactive interface with a modern look, leveraging Vite for fast development and React for a responsive UI.
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+##Features
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+- **Team Selection**: Users can choose from a list of available teams to see specific members in each team.
+- **Member Details**: Displays each team member's full name and designation, providing a quick overview of the team composition.
+- **Grouped Team View**: A grouped view to display all teams and their members at once, allowing for an overview of the entire team structure.
+- **Dynamic Count**: Shows the count of members in the selected team dynamically.
